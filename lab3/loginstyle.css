@@ -1,0 +1,102 @@
+*{
+ 
+  box-sizing: border-box;
+}
+
+.wraper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+img{
+   position: relative;
+   top: 2px;
+   left: 45px;
+   margin-bottom: 40px;
+   width: 80px;
+}
+.head-logo{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	
+      
+}
+.text_font{
+	font-size: 25px;
+	font-weight: lighter;
+      margin-top: -8px;
+}
+.text-area{
+	width: 350px;
+	height: 260px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 20px;
+	background: #f2f2f2;
+	
+}
+input{
+	width: 300px;
+	height: 35px;
+	outline: none;
+      border: 1px solid gray;
+	border-radius: 5px;
+}
+label{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.fpwd{
+	float: right;
+	position: relative;
+	bottom: 85px;
+	font-size: 13px;
+	text-decoration: none;
+}
+button{
+	outline: none;
+	border: none;
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.new_acc{
+	margin-top: 20px;
+	width: 350px;
+	height: 60px;
+	border: 1px solid gray;
+	outline: none;
+	border-radius: 5px;
+
+}
+.new_acc p{
+	text-align: center;
+	line-height: 60px;
+}
+.new_acc p a{
+	text-decoration: none;
+}
+.nav{
+	position: relative;
+	top: 45px;
+	left: 10px;
+}
+.nav ul li{
+	margin-right: -5px;
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 13px;
+}
+.fpwd:hover,
+.new_acc p a:hover,
+.nav ul li a:hover{
+	text-decoration: underline;
+	color: #80b3ff;
+}
