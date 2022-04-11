@@ -1,0 +1,60 @@
+
+
+@media (max-width: 650px) {
+ .mycol1{
+	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+ }
+ .mycol2{
+ 	text-align: center;
+ 	height: 180px;
+ 	line-height: 180px;
+    font-size: 25px;
+ 	font-weight: 600;
+ 	color: white;
+ }
+ .mycol3{
+ 	text-align: center;
+	height: 90px;
+	line-height: 90px;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+
+ }
+
+}
+@media (min-width: 700px) {
+	.mycontainer{
+		margin: 8em auto;
+	}
+ .mycol1{
+ 	width: 30px;
+	text-align: center;
+	height: 250px;
+	line-height: 250px;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+ }
+ .mycol2{
+ 	text-align: center;
+ 	line-height: 250px;
+    font-size: 25px;
+ 	font-weight: 600;
+ 	color: white;
+ }
+ .mycol3{
+ 	text-align: center;
+ 	line-height: 250px;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+
+ }
+
+}
