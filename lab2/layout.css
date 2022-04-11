@@ -1,6 +1,6 @@
 
 
-@media (max-width: 650px) {
+@media (max-width: 576px) {
  .mycol1{
 	text-align: center;
 	height: 90px;
@@ -28,7 +28,7 @@
  }
 
 }
-@media (min-width: 700px) {
+@media (min-width: 576px) {
 	.mycontainer{
 		margin: 8em auto;
 	}
